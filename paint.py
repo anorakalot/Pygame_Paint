@@ -11,7 +11,7 @@ random.seed()
 
 
 #for music sounds
-pygame.mixer.music.load('/home/anorak/Documents/projects/pygame_learning/Sabrepulse-Turbo-City-01-Cityscape-Dreams.ogg')
+pygame.mixer.music.load('<Insert directory of music file you want played here>')
 #function for playing music
 def play_music():
     pygame.mixer.music.play(0)
@@ -29,7 +29,7 @@ done = False
 
 #color variable for drawing
 color = (255,255,255)
-print("Welcome to Dylan's Paint Program!!")
+print("Welcome to this Paint Program!!")
 print("press P to save your beautiful painting!")
 print("press 1-4 for paint colors!")
 print("press 9 to reset your painting!")
